@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 font-sans;
+  }
+}
+
+@layer utilities {
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* Ensure smooth transitions */
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+/* Prose styling for blog content */
+.prose {
+  @apply text-gray-700 leading-relaxed;
+}
+
+.prose h1 {
+  @apply text-3xl font-bold text-gray-900 mb-4 mt-8;
+}
+
+.prose h2 {
+  @apply text-2xl font-bold text-gray-900 mb-3 mt-6;
+}
+
+.prose h3 {
+  @apply text-xl font-semibold text-gray-900 mb-2 mt-5;
+}
+
+.prose p {
+  @apply mb-4;
+}
+
+.prose ul {
+  @apply list-disc pl-5 mb-4 space-y-1;
+}
+
+.prose ol {
+  @apply list-decimal pl-5 mb-4 space-y-1;
+}
+
+.prose a {
+  @apply text-blue-900 hover:text-blue-700 font-medium;
+}
+
+.prose blockquote {
+  @apply pl-4 italic border-l-4 border-gray-200 my-4 text-gray-600;
+}
+
+.prose strong {
+  @apply font-bold text-gray-900;
+}
