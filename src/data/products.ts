@@ -10,8 +10,8 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
     images: [
-      'https://images.pexels.com/photos/5824883/pexels-photo-5824883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/5825368/pexels-photo-5825368.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      'https://images.unsplash.com/photo-1722859178634-ccc8ea5680d2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      'https://images.unsplash.com/photo-1536353284924-9220c464e262?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     ],
     description: 'Energy-efficient double door refrigerator with advanced cooling technology and spacious storage.',
     features: [
@@ -30,9 +30,9 @@ export const products: Product[] = [
     },
     inStock: true,
     isOnSale: true,
-    discountPercentage: 10
+    discountPercentage: 30
   },
-  {
+  {  
     id: 'k2',
     name: 'Smart Electric Cooker',
     category: 'kitchen',
@@ -40,8 +40,8 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 89,
     images: [
-      'https://images.pexels.com/photos/4993035/pexels-photo-4993035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/4992820/pexels-photo-4992820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      "https://i1.wp.com/www.tadiarlli.com/wp-content/uploads/2019/04/cook.jpg?fit=1200%2C1200&ssl=1",
+      "https://th.bing.com/th/id/R.16610d4ad4b498026f28ea99a07867bd?rik=MZzvvAlKZmVi0Q&pid=ImgRaw&r=0"
     ],
     description: 'Modern electric cooker with smart features and multiple cooking zones for the entire family.',
     features: [
@@ -70,7 +70,7 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 205,
     images: [
-      'https://images.pexels.com/photos/8105061/pexels-photo-8105061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/44/1196283/1.jpg?8369'
     ],
     description: 'Versatile food processor with multiple attachments for all your food preparation needs.',
     features: [
@@ -91,6 +91,125 @@ export const products: Product[] = [
     isOnSale: true,
     discountPercentage: 15
   },
+
+    {
+    id: 'k4',
+    name: 'Built-in Dishwasher',
+    category: 'kitchen',
+    price: 210000,
+    rating: 4.4,
+    reviews: 77,
+    images: [
+      'https://th.bing.com/th/id/OIP.k889yumIpLSVxIIeGV6S2gHaIP?cb=iwp2&rs=1&pid=ImgDetMain',
+      'https://th.bing.com/th/id/OIP.ie9jjUCWcbAzz4euYPAaxQHaHa?cb=iwp2&w=646&h=646&rs=1&pid=ImgDetMain'
+    ],
+    description: 'Efficient built-in dishwasher with multiple wash programs and quiet operation.',
+    features: [
+      '12 place settings',
+      'Eco wash mode',
+      'Delay start',
+      'Child lock',
+      'Stainless steel tub'
+    ],
+    specifications: {
+      dimensions: '60 x 60 x 85 cm',
+      capacity: '12 sets',
+      energyRating: 'A++',
+      color: 'Silver',
+      weight: '38 kg'
+    },
+    inStock: true,
+    isOnSale: true,
+    discountPercentage: 9
+  },
+  {
+    id: 'k5',
+    name: 'Microwave Oven',
+    category: 'kitchen',
+    price: 65000,
+    rating: 4.3,
+    reviews: 134,
+    images: [
+      'https://res.cloudinary.com/sharp-consumer-eu/image/fetch/w_3000,f_auto/https://s3-eu-west-1.amazonaws.com/accounts-media/SHRP/DAM/origin/8b6b9f7e-3a15-11eb-b75a-0e659a6d8321.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/81A53oOS-gL._SL1500_.jpg'
+    ],
+    description: 'Versatile microwave oven with grill function and digital controls.',
+    features: [
+      'Grill and microwave combo',
+      'Digital timer',
+      'Auto-cook menus',
+      'Defrost function',
+      'Child safety lock'
+    ],
+    specifications: {
+      dimensions: '48 x 38 x 28 cm',
+      capacity: '25 liters',
+      energyRating: 'A',
+      color: 'Black/Silver',
+      weight: '14 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 0
+  },
+  {
+    id: 'k6',
+    name: 'Juicer Blender Combo',
+    category: 'kitchen',
+    price: 42000,
+    rating: 4.2,
+    reviews: 98,
+    images: [
+      'https://th.bing.com/th/id/OIP.0xZxpQSX3LpS5IfjB614ogHaHa?cb=iwp2&rs=1&pid=ImgDetMain'
+    ],
+    description: '2-in-1 juicer and blender for fresh juices and smoothies at home.',
+    features: [
+      'Powerful 700W motor',
+      '2 speed settings',
+      'Large pulp container',
+      'Easy to clean',
+      'Safety lock system'
+    ],
+    specifications: {
+      dimensions: '22 x 18 x 40 cm',
+      capacity: '1.5 liters',
+      energyRating: 'A',
+      color: 'Gray',
+      weight: '3.5 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 0
+  },
+  {
+    id: 'k7',
+    name: 'Air Fryer',
+    category: 'kitchen',
+    price: 58000,
+    rating: 4.6,
+    reviews: 160,
+    images: [
+      'https://th.bing.com/th/id/R.f7c0bac70ed7d2c049e1e1e77f54d8b6?rik=Lnsn4Kashe5bHA&pid=ImgRaw&r=0'
+    ],
+    description: 'Healthy air fryer for oil-free frying, roasting, and baking.',
+    features: [
+      'Rapid air technology',
+      'Adjustable temperature',
+      'Timer function',
+      'Non-stick basket',
+      'Dishwasher safe parts'
+    ],
+    specifications: {
+      dimensions: '30 x 30 x 35 cm',
+      capacity: '4 liters',
+      energyRating: 'A+',
+      color: 'Black',
+      weight: '5 kg'
+    },
+    inStock: true,
+    isOnSale: true,
+    discountPercentage: 12
+  },
   // Laundry Appliances
   {
     id: 'l1',
@@ -100,8 +219,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 178,
     images: [
-      'https://images.pexels.com/photos/5502235/pexels-photo-5502235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      'https://images.pexels.com/photos/5502211/pexels-photo-5502211.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/73/6786602/1.jpg?5547'
     ],
     description: 'High-efficiency front load washing machine with multiple wash programs and smart features.',
     features: [
@@ -130,7 +248,7 @@ export const products: Product[] = [
     rating: 4.6,
     reviews: 92,
     images: [
-      'https://images.pexels.com/photos/5502566/pexels-photo-5502566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/95/3033204/1.jpg?6502'
     ],
     description: 'Energy-efficient heat pump dryer with sensor technology for gentle and thorough drying.',
     features: [
@@ -151,7 +269,39 @@ export const products: Product[] = [
     isOnSale: true,
     discountPercentage: 8
   },
+
+    {
+    id: 'l3',
+    name: 'Compact Clothes Steamer',
+    category: 'laundry',
+    price: 35000,
+    rating: 4.2,
+    reviews: 58,
+    images: [
+      'https://th.bing.com/th/id/OIP.tyCGHMZfTD71LFocLM-NJwHaHa?cb=iwp2&rs=1&pid=ImgDetMain'
+    ],
+    description: 'Portable clothes steamer for quick and easy wrinkle removal at home or on the go.',
+    features: [
+      'Fast heat-up',
+      'Continuous steam',
+      'Detachable water tank',
+      'Lightweight design',
+      'Safe for all fabrics'
+    ],
+    specifications: {
+      dimensions: '15 x 12 x 28 cm',
+      capacity: '250 ml',
+      energyRating: 'A',
+      color: 'White/Blue',
+      weight: '1 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 10
+  },
+
   // HVAC Appliances
+  // ...existing code...
   {
     id: 'h1',
     name: 'Split Air Conditioner',
@@ -160,7 +310,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 156,
     images: [
-      'https://www.pexels.com/photo/house-interior-photo-1428348/pexels-photo-1428348.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://plus.unsplash.com/premium_photo-1679943423706-570c6462f9a4?q=80&w=1905&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     ],
     description: 'Efficient split air conditioner with inverter technology for optimal cooling and energy savings.',
     features: [
@@ -183,33 +333,65 @@ export const products: Product[] = [
   },
   {
     id: 'h2',
-    name: 'Portable Air Cooler',
+    name: 'Portable Air Purifier',
     category: 'hvac',
     price: 65000,
-    rating: 4.3,
-    reviews: 210,
+    rating: 4.4,
+    reviews: 88,
     images: [
-      'https://images.pexels.com/photos/5824549/pexels-photo-5824549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://th.bing.com/th/id/R.be735ff87efa50d9884838de7633c535?rik=ZdTj9oU7xxMbRg&pid=ImgRaw&r=0'
     ],
-    description: 'Compact portable air cooler for smaller spaces with multiple fan speeds and cooling options.',
+    description: 'Compact air purifier with HEPA filter for clean and fresh indoor air.',
     features: [
+      'HEPA filtration',
       '3 fan speeds',
-      'Oscillation function',
-      'Remote control operation',
-      'Water/ice compartment',
-      'Low energy consumption'
+      'Quiet operation',
+      'Filter replacement indicator',
+      'Night mode'
     ],
     specifications: {
-      dimensions: '35 x 30 x 75 cm',
-      capacity: 'Cools up to 20m²',
+      dimensions: '22 x 22 x 35 cm',
+      capacity: '30 m² coverage',
       energyRating: 'A',
-      color: 'White/Blue',
-      weight: '8 kg'
+      color: 'White',
+      weight: '2.5 kg'
     },
     inStock: true,
     isOnSale: true,
-    discountPercentage: 20
+    discountPercentage: 12
   },
+  {
+    id: 'h3',
+    name: 'Smart Tower Fan',
+    category: 'hvac',
+    price: 48000,
+    rating: 4.3,
+    reviews: 67,
+    images: [
+      'https://th.bing.com/th/id/OIP.HY-KiEl3ol5-jiEGoJQhBwHaHa?cb=iwp2&w=480&h=480&rs=1&pid=ImgDetMain'
+    ],
+    description: 'Oscillating tower fan with smart controls and remote for efficient cooling.',
+    features: [
+      'Oscillation function',
+      'Remote control',
+      '3 speed settings',
+      'Timer function',
+      'Smartphone app connectivity'
+    ],
+    specifications: {
+      dimensions: '25 x 25 x 110 cm',
+      capacity: 'Room cooling',
+      energyRating: 'A+',
+      color: 'Black',
+      weight: '4 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 0
+  },
+  
+ 
+  
   // Small Appliances
   {
     id: 's1',
@@ -219,7 +401,8 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 245,
     images: [
-      'https://images.pexels.com/photos/6206426/pexels-photo-6206426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/35/6316223/1.jpg?6136'
+      
     ],
     description: 'Professional-grade coffee maker with built-in grinder and multiple brewing options.',
     features: [
@@ -248,7 +431,8 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 178,
     images: [
-      'https://images.pexels.com/photos/9986228/pexels-photo-9986228.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      'https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/15/5204352/1.jpg?5690',
+      'https://ng.jumia.is/unsafe/fit-in/150x150/filters:fill(white)/product/91/4676304/2.jpg?0644'
     ],
     description: 'Powerful stand mixer with multiple attachments for all your baking and cooking needs.',
     features: [
@@ -268,7 +452,69 @@ export const products: Product[] = [
     inStock: true,
     isOnSale: true,
     discountPercentage: 10
+  },
+
+  {
+    id: 's3',
+    name: 'Electric Kettle',
+    category: 'small',
+    price: 25000,
+    rating: 4.5,
+    reviews: 300,
+    images: [
+      'https://images.unsplash.com/photo-1571552879083-e93b6ea70d1d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3RyaWMlMjBrZXR0bGV8ZW58MHx8MHx8fDA%3D',
+      "https://images.unsplash.com/photo-1579752898926-3bcbc125ae2e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8ZWxlY3RyaWMlMjBrZXR0bGV8ZW58MHx8MHx8fDA%3D"
+    ],
+    description: 'Fast boiling electric kettle with temperature control and stainless steel design.',
+    features: [
+      '1.7 liters capacity',
+      'Temperature control settings',
+      'Automatic shut-off',
+      '360-degree swivel base',
+      'Cordless operation'
+    ],
+    specifications: {
+      dimensions: '22 x 15 x 25 cm',
+      capacity: '1.7 liters',
+      energyRating: 'A',
+      color: 'Stainless Steel',
+      weight: '1.2 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 0
+  },
+
+  {
+    id: 's4',
+    name: 'Toaster',
+    category: 'small',
+    price: 15000,
+    rating: 4.4,
+    reviews: 150,
+    images: [
+      'https://plus.unsplash.com/premium_photo-1667238579781-cb4bd6126ffd?q=80&w=1911&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    ],
+    description: 'Compact toaster with multiple browning settings and extra-wide slots for thick bread.',
+    features: [ 
+      '2-slice capacity',
+      'Adjustable browning control',
+      'Extra-wide slots',
+      'Removable crumb tray',
+      'Cord storage'
+    ],
+    specifications: {
+      dimensions: '30 x 18 x 20 cm',
+      capacity: '2 slices',
+      energyRating: 'A',
+      color: 'Black',
+      weight: '1.5 kg'
+    },
+    inStock: true,
+    isOnSale: false,
+    discountPercentage: 5
   }
+
 ];
 
 export const featuredProducts = products.filter(p => p.isOnSale);

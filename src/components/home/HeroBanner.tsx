@@ -13,19 +13,19 @@ const slides: Slide[] = [
   {
     title: 'Summer Sale',
     description: 'Up to 30% off on selected kitchen appliances',
-    image: 'https://images.pexels.com/photos/5975507/pexels-photo-5975507.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: 'https://plus.unsplash.com/premium_photo-1672883552013-506440b2f11c?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     link: '/category/kitchen'
   },
   {
     title: 'Smart Home Solutions',
     description: 'Transform your home with the latest technology',
-    image: 'https://images.pexels.com/photos/3183184/pexels-photo-3183184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image:"https://images.unsplash.com/photo-1601760562234-9814eea6663a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: '/category/smart'
   },
   {
     title: 'Energy Efficient Appliances',
     description: 'Save money and the environment',
-    image: 'https://images.pexels.com/photos/5824884/pexels-photo-5824884.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+    image: "https://images.unsplash.com/photo-1667450799167-09e7dd903e59?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     link: '/category/hvac'
   }
 ];

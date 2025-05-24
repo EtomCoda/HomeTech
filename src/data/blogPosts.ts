@@ -59,7 +59,7 @@ If you have a manual defrost refrigerator, regular defrosting is essential.
 By following these simple maintenance steps, you can ensure your refrigerator operates efficiently for many years, saving you money on energy bills and avoiding costly early replacement.
     `,
     image: 'https://images.pexels.com/photos/5824883/pexels-photo-5824883.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    author: 'Elizabeth Taylor',
+    author: 'Azeeza Runmonkun',
     date: '2025-04-15',
     category: 'maintenance',
     tags: ['refrigerator', 'maintenance', 'energy-saving', 'kitchen-appliances']
@@ -130,8 +130,8 @@ Many appliances continue to draw power even when not in active use.
 
 By implementing these changes throughout your home, you can reduce your energy consumption by 10-25%. Not only will this lower your utility bills, but it also reduces your environmental footprint and can extend the life of your appliances.
     `,
-    image: 'https://images.pexels.com/photos/3937174/pexels-photo-3937174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    author: 'Michael Johnson',
+    image: 'https://phabcart.imgix.net/cdn/scdn/images/uploads/sp111a3_web600.jpg?auto=compress',
+    author: 'Anthony Ibuzo',
     date: '2025-04-10',
     category: 'energy-saving',
     tags: ['energy-efficiency', 'cost-saving', 'sustainable-living', 'appliance-tips']
@@ -231,8 +231,8 @@ Proper installation and maintenance significantly impact performance and lifespa
 
 By carefully considering these factors, you can select an air conditioner that provides optimal comfort while minimizing energy consumption and maintenance requirements.
     `,
-    image: 'https://images.pexels.com/photos/3668440/pexels-photo-3668440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    author: 'Sarah Williams',
+    image: 'https://cioafrica.co/wp-content/uploads/2020/10/Type-of-Air-Conditioning-System.jpg',
+    author: 'Siji Lanre-Yusuf',
     date: '2025-04-05',
     category: 'buying-guide',
     tags: ['air-conditioning', 'cooling', 'hvac', 'home-comfort']
