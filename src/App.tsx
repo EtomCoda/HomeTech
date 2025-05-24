@@ -2,6 +2,7 @@ import React from 'react';
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
+import AboutUs from './pages/AboutUs';
 import CategoryPage from './pages/CategoryPage';
 import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
@@ -24,6 +25,7 @@ export const router = createBrowserRouter(
       <Route path="cart" element={<CartPage />} />
       <Route path="checkout" element={<CheckoutPage />} />
       <Route path="account" element={<AccountPage />} />
+      <Route path="about" element={<AboutUs />} />
       <Route path="blog" element={<BlogPage />} />
       <Route path="blog/:postId" element={<BlogPostPage />} />
       <Route path="compare" element={<ComparisonPage />} />
