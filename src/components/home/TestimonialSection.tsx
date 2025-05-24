@@ -4,7 +4,7 @@ import { Star } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: 'Adebayo Johnson',
+    name: 'OG',
     role: 'Homeowner',
     content: 'The refrigerator I purchased has transformed my kitchen. Excellent quality and the delivery was faster than expected. The installation team was professional and helpful.',
     rating: 5,
@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     id: 2,
-    name: 'Chiamaka Okafor',
+    name: 'Annabelle',
     role: 'Property Manager',
     content: 'We\'ve furnished multiple apartments with appliances from HomeTech. Their reliability and after-sales service have made them our go-to supplier for all our properties.',
     rating: 5,
@@ -20,7 +20,7 @@ const testimonials = [
   },
   {
     id: 3,
-    name: 'Mohammed Ibrahim',
+    name: 'Chinemerem',
     role: 'Restaurant Owner',
     content: 'The commercial appliances I purchased for my restaurant have been running flawlessly for over a year now. The energy efficiency has noticeably reduced our electricity bills.',
     rating: 4,

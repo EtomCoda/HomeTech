@@ -4,6 +4,7 @@ import Layout from './components/layout/Layout';
 import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
 import CategoryPage from './pages/CategoryPage';
+import AccountFavorites from './pages/Favourites';
 import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
@@ -28,6 +29,7 @@ export const router = createBrowserRouter(
       <Route path="about" element={<AboutUs />} />
       <Route path="blog" element={<BlogPage />} />
       <Route path="blog/:postId" element={<BlogPostPage />} />
+      <Route path="account/favorites" element={<AccountFavorites />} />
       <Route path="compare" element={<ComparisonPage />} />
       <Route path="search" element={<SearchResultsPage />} />
       <Route path="login" element={<LoginPage />} />
