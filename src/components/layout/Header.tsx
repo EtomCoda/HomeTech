@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingCart, User, Heart, Menu, X, Search, MessageCircle, PhoneCall, PhoneCallIcon, MessageSquare } from 'lucide-react';
+import { ShoppingCart, User, Heart, Menu, X, Search, MessageSquare } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 import { useAuth } from '../../context/AuthContext';
 import { categories } from '../../data/categories';
@@ -242,6 +242,22 @@ const Header: React.FC = () => {
                   </span>
                 )}
               </Link>
+              <Link
+                to="/contact"
+                className="flex items-center justify-between px-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-100"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <div className="flex items-center">
+                  <MessageSquare className="h-6 w-6 mr-2" />
+                  Contact
+                </div>
+                {totalItems > 0 && (
+                  <span className="bg-orange-500 text-white text-xs font-bold rounded-full h-5 w-5 flex items-center justify-center">
+                    {totalItems}
+                  </span>
+                )}
+              </Link>
+              
             </div>
           </div>
         </div>
