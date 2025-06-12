@@ -130,9 +130,12 @@ const Header: React.FC = () => {
               </Link>
             )}
 
-            <button className="p-2 rounded-full hover:bg-gray-100" onClick={() => window.open('#chat')}>
+            <Link
+              to="/contact"
+              className="p-2 rounded-full hover:bg-gray-100"
+            >
               <MessageCircle className="h-6 w-6 text-gray-700" />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
