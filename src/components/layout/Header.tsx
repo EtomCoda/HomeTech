@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { ShoppingCart, User, Heart, Menu, X, Search, MessageCircle } from 'lucide-react';
+import { ShoppingCart, User, Heart, Menu, X, Search, MessageCircle, PhoneCall, PhoneCallIcon, MessageSquare } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 import { useAuth } from '../../context/AuthContext';
 import { categories } from '../../data/categories';
@@ -134,7 +134,7 @@ const Header: React.FC = () => {
               to="/contact"
               className="p-2 rounded-full hover:bg-gray-100"
             >
-              <MessageCircle className="h-6 w-6 text-gray-700" />
+              <MessageSquare className="h-6 w-6 text-gray-700" />
             </Link>
           </div>
         </div>
