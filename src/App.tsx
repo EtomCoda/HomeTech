@@ -16,11 +16,13 @@ import SearchResultsPage from './pages/SearchResultsPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import NotFoundPage from './pages/NotFoundPage';
+import PaymentCompletePage from './pages/PaymentCompletePage';
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<HomePage />} />
+      <Route path="payment-complete" element={<PaymentCompletePage />} />
       <Route path="contact" element={<ContactPage />} />
       <Route path="category/:categoryId" element={<CategoryPage />} />
       <Route path="product/:productId" element={<ProductPage />} />

@@ -73,7 +73,9 @@ const CheckoutPage: React.FC = () => {
     // For demo purposes, we'll just simulate a successful order
     setTimeout(() => {
       clearCart();
-      navigate('/account/orders');
+      navigate('/payment-complete', {
+        state: { orderId: '12345' }
+      });
     }, 1500);
   };
 
